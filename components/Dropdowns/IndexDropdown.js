@@ -44,44 +44,44 @@ const IndexDropdown = () => {
           Admin Layout
         </span>
         <Link href="/admin/dashboard">
-          <a
+          <div
             href="#pablo"
             className={
               "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
             }
           >
             Dashboard
-          </a>
+          </div>
         </Link>
         <Link href="/admin/settings">
-          <a
+          <div
             href="#pablo"
             className={
               "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
             }
           >
             Settings
-          </a>
+          </div>
         </Link>
         <Link href="/admin/tables">
-          <a
+          <div
             href="#pablo"
             className={
               "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
             }
           >
             Tables
-          </a>
+          </div>
         </Link>
         <Link href="/admin/maps">
-          <a
+          <div
             href="#pablo"
             className={
               "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
             }
           >
             Maps
-          </a>
+          </div>
         </Link>
         <div className="h-0 mx-4 my-2 border border-solid border-blueGray-100" />
         <span
@@ -92,24 +92,24 @@ const IndexDropdown = () => {
           Auth Layout
         </span>
         <Link href="/auth/login">
-          <a
+          <div
             href="#pablo"
             className={
               "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
             }
           >
             Login
-          </a>
+          </div>
         </Link>
         <Link href="/auth/register">
-          <a
+          <div
             href="#pablo"
             className={
               "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
             }
           >
             Register
-          </a>
+          </div>
         </Link>
         <div className="h-0 mx-4 my-2 border border-solid border-blueGray-100" />
         <span
@@ -120,24 +120,24 @@ const IndexDropdown = () => {
           No Layout
         </span>
         <Link href="/landing">
-          <a
+          <div
             href="#pablo"
             className={
               "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
             }
           >
             Landing
-          </a>
+          </div>
         </Link>
         <Link href="/profile">
-          <a
+          <div
             href="#pablo"
             className={
               "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
             }
           >
             Profile
-          </a>
+          </div>
         </Link>
       </div>
     </>
