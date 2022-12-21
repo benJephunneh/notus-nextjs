@@ -22,7 +22,7 @@
     "start": "next start",
     "build": "next build",
     "dev": "next dev",
-    "install:clean": "rmdir /s /q node_modules && del /f package-lock.json && npm install && npm run build:tailwind && npm run dev",
+    "install:clean": "rmdir /s /q node_modules && del /f package-lock.json && pnpm install && pnpm build:tailwind && pnpm dev",
     "build:tailwind": "tailwind build styles/index.css -o styles/tailwind.css",
     "preinstall": "npx only-allow pnpm"
   },
