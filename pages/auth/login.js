@@ -104,9 +104,9 @@ export default function Login() {
               </div>
               <div className="w-1/2 text-right">
                 <Link href="/auth/register">
-                  <a href="#pablo" className="text-blueGray-200">
+                  <div href="#pablo" className="text-blueGray-200">
                     <small>Create new account</small>
-                  </a>
+                  </div>
                 </Link>
               </div>
             </div>
